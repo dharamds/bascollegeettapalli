@@ -1,0 +1,208 @@
+div#container
+{
+   width: 1001px;
+   position: relative;
+   margin-top: 0px;
+   margin-left: auto;
+   margin-right: auto;
+   text-align: left;
+}
+body
+{
+   text-align: center;
+   margin: 0;
+   background-color: #FFFFFF;
+   background-image: url(images/index_bkgrnd.png);
+   color: #000000;
+}
+a
+{
+   color: #E5EDF7;
+   text-decoration: underline;
+}
+a:visited
+{
+   color: #E5EDF7;
+}
+a:active
+{
+   color: #E5EDF7;
+}
+a:hover
+{
+   color: #387AC8;
+   text-decoration: underline;
+}
+a.Menu:link
+{
+   color: #FFFFFF;
+   text-decoration: none;
+}
+a.Menu:visited
+{
+   color: #FFFFFF;
+   text-decoration: none;
+}
+a.Menu:active
+{
+   color: #FF0000;
+   text-decoration: underline;
+}
+a.Menu:hover
+{
+   color: #FFFFFF;
+   text-decoration: underline;
+}
+.text
+{
+   font-family: Verdana;
+   font-size: 13px;
+   font-weight: normal;
+   font-style: normal;
+   text-decoration: none;
+   color: #666666;
+}
+
+
+
+.title
+{
+   font-family: Arial;
+   font-size: 19px;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   color: #556A8F;
+}
+
+.title1
+{
+   font-family: Arial;
+   font-size: 13px;
+   font-weight: bold;
+   font-style: normal;
+   text-decoration: none;
+   color: #FFFFF;
+}
+
+#indexImage6
+{
+   border: 0px #000000 solid;
+}
+#indexImage4
+{
+   border: 0px #000000 solid;
+}
+#indexImage5
+{
+   border: 0px #000000 solid;
+}
+#wb_indexText1 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+}
+#wb_indexText1 div
+{
+   text-align: left;
+}
+#indexLine1
+{
+   border-width: 0;
+   height: 450px;
+   width: 8px;
+}
+#wb_headerTextMenu1
+{
+   color :#000000;
+   font-family: Verdana;
+   font-size: 15px;
+}
+#wb_headerTextMenu1 span
+{
+   margin: 0px 6px 0px 0px;
+}
+#wb_indexText3 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+}
+#wb_indexText3 div
+{
+   text-align: left;
+}
+#wb_indexText2 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+}
+#wb_indexText2 div
+{
+   text-align: justify;
+}
+#wb_indexText4 
+{
+   background-color: transparent;
+   border: 0px #000000 solid;
+   padding: 0;
+}
+#wb_indexText4 div
+{
+   text-align: left;
+}
+
+
+/* CSSTerm.com Simple Horizontal DropDown CSS menu */
+
+.drop{
+    height: 5px;
+    left: 35px;
+    position: absolute;
+    top: 162px;
+    width: 930px;
+    z-index: 4;
+    
+}
+.drop_menu {
+	/*background:#759BD7;*/
+        background-image: url(images/index_10.png);
+	padding:0;
+	margin:0;
+	list-style-type:none;
+	height:51px;
+}
+.drop_menu li { float:left; }
+.drop_menu li a { /*border-right: solid 1px #556A8F; border-left: solid 1px #D7E8FF; */
+	padding:9px 6px;
+	display:block;
+	color:#fff;
+	text-decoration:none;
+	font:14px verdana;
+}
+
+/* Submenu */
+.drop_menu ul {
+	position:absolute;
+	left:-9999px;
+	top:-9999px;
+	list-style-type:none;
+}
+.drop_menu li:hover { position:relative;  }
+.drop_menu li:hover ul {
+	left:0px;
+	top:30px;
+	background:#759BD8;
+	padding:0px;
+}
+
+.drop_menu li:hover ul li a {
+	padding:5px;
+	display:block;
+	width:168px;
+	text-indent:15px;
+	background-color:#79A2E1;
+}
+.drop_menu li:hover ul li a:hover { background:#556A8F; }

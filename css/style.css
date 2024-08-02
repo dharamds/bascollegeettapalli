@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+a{
+    text-decoration: none;
+}
+
+#header {
+    background-color:#043E69;
+    color:white;
+    text-align:center;
+    padding:0px;
+}
+#header a{
+text-decoration:underline;
+color:white;
+    text-align:center;
+ 
+}
+
+#nav {
+    line-height:30px;
+    background-color:#53B2E8;
+    min-height:500px;
+    width:300px;
+    float:left;
+    padding:5px;
+    margin-top: -23px; 
+}
+#section {
+    width:
+    float:
+    padding:10px; 
+}
+#footer {
+    background-color:#043E69;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}
